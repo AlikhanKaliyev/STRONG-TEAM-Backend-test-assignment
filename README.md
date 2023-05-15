@@ -1,3 +1,7 @@
 # STRONG TEAM backend test assignment
 
-<img src="images/img.png" />
+## This task is done by using java spring boot framework.
+
+<br/>
+
+## Task 1
