@@ -64,7 +64,7 @@ Endpoint:<br/>
 Endpoint:<br/>
 <img src="images/img22.png"/><br/><br/>
 ## Scheduling task:
-I wrote code in NewsSourceService.java, which creates every midnight csv file named 'source_news_statistics', which shows how much news each source holds.<br/>
+I wrote code in NewsSourceService.java, which creates every midnight csv file (in root of the project) named 'source_news_statistics', which shows how much news each source holds.<br/>
 <img src="images/img23.png"/><br/><br/>
 
 
