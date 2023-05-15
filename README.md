@@ -43,7 +43,7 @@ Response:<br/>
 All requests for sources are identical to topics(main:the same request body).But instead of 'news-topics' in endpoint, I chose to write 'news-sources'.
 
 ## GET, POST, PUT, DELETE methods for news
-Post request for news. Its request body and response:<br/>
+Post request for news. Its request body and response(in topics, you provide list of topics ids):<br/>
 <img src="images/img14.png"/><br/>
 <img src="images/img15.png"/><br/><br>
 Put request has the same request body and response, but another endpoint(at the end '/{id}'):<br/>
