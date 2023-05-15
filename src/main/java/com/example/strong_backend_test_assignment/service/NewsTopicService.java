@@ -5,17 +5,13 @@ import com.example.strong_backend_test_assignment.domain.dto.newsSourceDTO.NewsS
 import com.example.strong_backend_test_assignment.domain.dto.newsTopicDTO.CreateNewsTopicDTO;
 import com.example.strong_backend_test_assignment.domain.dto.newsTopicDTO.NewsTopicDTO;
 import com.example.strong_backend_test_assignment.domain.dto.newsTopicDTO.UpdateNewsTopicDTO;
-import com.example.strong_backend_test_assignment.domain.model.News;
-import com.example.strong_backend_test_assignment.domain.model.NewsSource;
 import com.example.strong_backend_test_assignment.domain.model.NewsTopic;
 import com.example.strong_backend_test_assignment.repository.NewsRepository;
 import com.example.strong_backend_test_assignment.repository.NewsSourceRepository;
 import com.example.strong_backend_test_assignment.repository.NewsTopicRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -27,7 +23,6 @@ public class NewsTopicService {
 
     private final NewsRepository newsRepository;
 
-    private final NewsSourceRepository newsSourceRepository;
 
     public NewsTopicDTO createNewsTopic(CreateNewsTopicDTO createNewsTopicDTO) {
         createNewsTopicDTO.validate();

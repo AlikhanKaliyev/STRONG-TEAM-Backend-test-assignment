@@ -29,7 +29,6 @@ import java.util.Optional;
 public class NewsSourceService {
     final private NewsSourceRepository newsSourceRepository;
 
-    final private NewsTopicRepository newsTopicRepository;
 
     final private NewsRepository newsRepository;
 
