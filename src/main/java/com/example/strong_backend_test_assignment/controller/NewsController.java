@@ -27,7 +27,7 @@ public class NewsController {
         } catch (Exception e) {
             String errorMessage;
             if(e.getMessage() == "No value present") {
-                errorMessage = "Some of the provided topics do not exist";
+                errorMessage = "Some of the provided topics or source do not exist";
             } else {
                 errorMessage = e.getMessage();
             }
@@ -52,7 +52,7 @@ public class NewsController {
         } catch (Exception e) {
             String errorMessage;
             if(e.getMessage() == "No value present") {
-                errorMessage = "Some of the provided topics do not exist";
+                errorMessage = "Some of the provided topics or source do not exist";
             } else {
                 errorMessage = e.getMessage();
             }
